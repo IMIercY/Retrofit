@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Test Feature</string>
+    <string name="hello">Hello</string>
+    <string name="Title">title</string>
+    <string name="ID">ID</string>
+    <string name="BODY">Body</string>
+    <string name="STREET">Street</string>
+    <string name="LAT">Lat</string>
+    <string name="LNG">Lng</string>
+    <string name="red">RED</string>
+    <string name="blue">BLUE</string>
+    <string name="green">GREEN</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_viewpager">Hello Viewpager</string>
+</resources>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Activity.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="50dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:text="100 Posts"
+            android:background="#EEFF41"
+            android:id="@+id/btm_posts"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#ffffff"
+            android:background="#FF3D00"
+            android:id="@+id/btn_users"
+            android:text="10 Users"
+            android:layout_height="match_parent" />
+        <Button
+            android:layout_width="wrap_content"
+            android:background="#FF3D00"
+            android:textColor="#ffffff"
+            android:id="@+id/btn_cmts"
+            android:text="500 CMTs"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+        <Button
+            android:layout_width="wrap_content"
+            android:background="#EEFF41"
+            android:id="@+id/btn_post_photo"
+            android:text="PostPhoto"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="50dp">
+
+       <Button
+           android:layout_width="match_parent"
+           android:id="@+id/btn_view_pager"
+           android:text="Go To View Pager"
+           android:background="@color/colorPrimary"
+           android:textColor="@android:color/white"
+           android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/lyt_rcv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:listitem="@layout/view_holder2">
+
+    </android.support.v7.widget.RecyclerView>
+
+
+</LinearLayout>
